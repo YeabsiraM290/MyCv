@@ -1,0 +1,19 @@
+
+body{
+
+    background-color: rgb(200, 200, 200);
+}
+
+img{
+
+    height: 150px;
+    width: 200px;
+
+} 
+
+div{
+        width: 70%;
+        padding: 50px;
+        margin: 2% 16%;   
+}
+

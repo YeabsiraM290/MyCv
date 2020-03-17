@@ -68,7 +68,6 @@ div:nth-child(5) > p{
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-child(5) > p:nth-child(3){
 
-
     border: 5px solid white;
 }
 
