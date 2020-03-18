@@ -5,6 +5,19 @@ body{
     margin: 10px auto;
    
 }
+
+.index{
+
+    background-color: white;
+}
+.Header{
+
+    float: left;
+}
+
+#Logo{
+    float: right;
+}
 header{
 
     background-color: rgba(12,23,11,0.3);

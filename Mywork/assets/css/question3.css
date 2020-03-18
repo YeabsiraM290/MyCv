@@ -1,0 +1,288 @@
+
+body{
+
+    background-color: rgb(250, 250, 250);
+    
+}
+
+.main{
+
+    margin: 100px 250px;
+
+}
+
+.row{
+
+    display: inline;
+
+}
+
+.Country{
+
+    float: left;
+}
+
+#Afirst{
+
+    height: 75px;
+    width: 200px;
+    background-color: black;
+}
+
+#Asecond{
+
+    height: 75px;
+    width: 200px;
+    background-color: red;
+}
+
+#Bfirst{
+
+    height: 50px;
+    width: 200px;
+    background-color: lightskyblue;
+}
+
+#Bsecond{
+
+    height: 10px;
+    width: 200px;
+    background-color: white;
+}
+
+#Bthird{
+
+    height: 30px;
+    width: 200px;
+    background-color: black;
+}
+
+#Bfourth{
+
+    height: 10px;
+    width: 200px;
+    background-color: white;
+}
+
+#Bfifth{
+
+    height: 50px;
+    width: 200px;
+    background-color: lightskyblue;
+}
+
+#Cfirst{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: darkblue;
+}
+
+#Csecond{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: yellow;
+}
+
+#Cthird{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: red;
+}
+
+#Dfirst{
+
+    height: 50px;
+    width: 200px;
+    background-color: brown;
+}
+
+#Dsecond{
+
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+
+#Dthird{
+
+    height: 50px;
+    width: 200px;
+    background-color: black;
+}
+
+#Efirst{
+
+    height: 50px;
+    width: 200px;
+    background-color: green;
+}
+
+#Esecond{
+
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+}
+
+#Ethird{
+
+    height: 50px;
+    width: 200px;
+    background-color: lightskyblue;
+}
+
+#Ffirst{
+
+    height: 40px;
+    width: 200px;
+    background-color: red;
+}
+
+#Fsecond{
+
+    height: 70px;
+    width: 200px;
+    background-color: black;
+}
+
+#Fthird{
+
+    height: 40px;
+    width: 200px;
+    background-color: green;
+}
+
+#Gfirst{
+
+    height: 150px;
+    width: 210px;
+    background-color: brown;
+}
+
+#Hfirst{
+
+    height: 50px;
+    width: 200px;
+    background-color: darkorange;
+}
+
+#Hsecond{
+
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+
+#Hthird{
+
+    height: 50px;
+    width: 200px;
+    background-color: lightgreen;
+}
+
+#Ifirst{
+
+    height: 70px;
+    width: 200px;
+    background-color: lightsteelblue;
+}
+
+#Isecond{
+
+    height: 40px;
+    width: 200px;
+    background-color: yellow;
+}
+
+#Ithird{
+
+    height: 40px;
+    width: 200px;
+    background-color: green;
+}
+
+#Jfirst{
+
+    height: 40px;
+    width: 200px;
+    background-color: black;
+}
+
+#Jsecond{
+
+    height: 15px;
+    width: 200px;
+    background-color: white;
+}
+
+#Jthird{
+
+    height: 40px;
+    width: 200px;
+    background-color: brown;
+}
+
+#Jfourth{
+
+    height: 15px;
+    width: 200px;
+    background-color: white;
+}
+
+#Jfifth{
+
+    height: 40px;
+    width: 200px;
+    background-color: green;
+}
+
+#Etfirst{
+
+    height: 50px;
+    width: 200px;
+    background-color: green;
+}
+
+#Etsecond{
+
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+}
+
+#Etthird{
+
+    height: 50px;
+    width: 200px;
+    background-color: red;
+}
+
+#Kfirst{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: green;
+}
+
+#Ksecond{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: white;
+}
+
+#Kthird{
+
+    float: left;
+    height: 150px;
+    width: 70px;
+    background-color: green;
+}
