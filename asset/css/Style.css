@@ -1,23 +1,11 @@
 
 body{
 
-    background-color: grey;
+    background-color: whitesmoke;
     margin: 10px auto;
    
 }
 
-.index{
-
-    background-color: white;
-}
-.Header{
-
-    float: left;
-}
-
-#Logo{
-    float: right;
-}
 header{
 
     background-color: rgba(12,23,11,0.3);
@@ -27,7 +15,35 @@ header{
     right: 0;
     
 }
+
+.Description{
+
+   margin: 100px 250px;
+
+}
+
+#Logo{
     
+
+    width: 300px;
+    height:300px;
+    border-radius: 400px;
+    float: left;
+    
+    
+}
+
+#desc{
+
+    float: left;
+}
+  
+
+#header{
+
+    float: left;
+}
+  
 
 section{
     font-family: Arial, Helvetica, sans-serif;
@@ -56,6 +72,7 @@ article{
 
 /* link style ..  */
 nav > ul > li{
+
     display: inline-block;
     padding: 10px 3px;
     font-size: 20px;
@@ -64,18 +81,30 @@ nav > ul > li{
 
 nav > ul > li > a{
     text-decoration: none;
-}
-
-img{
-
-    width: 30%;
-    height: 50%;
-    margin: 50px 21px;
     
 }
 
-h3{
+.gallery{
+
+    margin-left: 125px;
+}
+
+.gallery > img{
+
+    width: 30%;
+    height: 500px;
+    float: left;
+    
+}
+
+#galleryheader{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 80px;
+    margin-top: 100px;
 }
+
+.footer{
+
+    margin-top: 50px 500px;
+}
+
