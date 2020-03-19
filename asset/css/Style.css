@@ -1,5 +1,7 @@
 /* Common */
 
+@media screen and (min-width: 480px) 
+
 body{
 
     background-color: #b9b7b7;
@@ -230,6 +232,31 @@ article{
 .map{
 
     margin-left: 150px;
+}
+
+/* Mywork */
+
+.myworkbody{
+
+    margin: 100px 100px;    
+    border-bottom: 2px solid black;
+}
+
+.myworkbody > .questions{
+
+    margin: 100px 500px;    
+    
+}
+
+.myworkbody > .questions > a{
+
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;   
+    color: #334142d0;
+    text-decoration: none;
+    
 }
 
 
