@@ -1,10 +1,13 @@
+/* Common */
 
 body{
 
-    background-color: whitesmoke;
+    background-color: #b9b7b7;
     margin: 10px auto;
    
 }
+
+/* Navigation */
 
 header{
 
@@ -16,34 +19,128 @@ header{
     
 }
 
-.Description{
+nav > ul > li{
 
-   margin: 100px 250px;
-
-}
-
-#Logo{
-    
-
-    width: 300px;
-    height:300px;
-    border-radius: 400px;
-    float: left;
-    
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
     
 }
 
-#desc{
-
-    float: left;
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    
 }
-  
 
-#header{
+.footer{
 
-    float: left;
+    text-align: center;
 }
-  
+
+.footer > p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Index */
+
+.main{
+
+   
+    display: flex;
+    padding: 25px;
+    margin: 100px 100px;
+    border-bottom: 2px solid black;
+}
+
+.logo > img{
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    flex: 1;
+   
+}
+
+.description{
+
+    flex: 4;
+    margin: 50px 50px;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description > h1{
+
+    font-weight: bold;
+}
+
+.body{
+
+    padding: 25px;
+    margin: 40px 100px;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.body > h3 {
+
+    font-weight: bold;
+    
+
+}
+
+.body >.hobbies> ul{
+
+    list-style-type: circle;
+    
+      
+}
+
+.body >.hobbies> ul> li > ul{
+
+    list-style-type: square;
+
+}
+
+.body > .work > #title{
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Gallery */
+
+.gallery{
+
+    margin-left: 125px;
+}
+
+.gallery > img{
+
+    width: 30%;
+    height: 500px;
+    float: left;
+    
+}
+
+#galleryheader{
+
+    position: relative;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:10%;
+}
+
+/* Blog */
 
 section{
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +148,6 @@ section{
     margin-top: 70px;
 
 } 
-
 
 article{
     font-size: 15px;
@@ -70,41 +166,7 @@ article{
     text-transform: uppercase;
 }
 
-/* link style ..  */
-nav > ul > li{
 
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-    
-}
 
-nav > ul > li > a{
-    text-decoration: none;
-    
-}
 
-.gallery{
-
-    margin-left: 125px;
-}
-
-.gallery > img{
-
-    width: 30%;
-    height: 500px;
-    float: left;
-    
-}
-
-#galleryheader{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 100px;
-}
-
-.footer{
-
-    margin-top: 50px 500px;
-}
 
