@@ -112,34 +112,36 @@ nav > ul > li > a{
 }
 
 
-
-
-
-
-
 /* Gallery */
 
-.gallery{
-
-    margin-left: 125px;
-}
-
-.gallery > img{
-
-    width: 30%;
-    height: 500px;
-    float: left;
-    
-}
 
 #galleryheader{
 
     position: relative;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top:10%;
+    font-size: 2em;
+    margin-top: 10%;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    text-transform: capitalize;
+    border-bottom: 3px solid black;
 }
 
+.gallery{
+
+    margin: 50px 70px;
+    border-bottom: 3px solid black;
+  
+}
+
+.row > img{
+    
+    height: 600px;
+    width: 400px;
+}
+    
 /* Blog */
 
 section{
@@ -166,7 +168,69 @@ article{
     text-transform: uppercase;
 }
 
+/* Contact */
 
+
+.contactmain{
+
+   
+    display: flex;
+    padding: 25px;
+    margin: 100px 100px;
+    border-bottom: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactmain > .form> #head{
+
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+
+#map{
+
+    height: 600px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.input{
+
+    height: 25px;
+    width: 300px;
+    border-radius: 6%;
+}
+
+#combo{
+
+    height: 25px;
+    width: 70px;
+}
+
+#textarea{
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+#button{
+
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.map{
+
+    margin-left: 150px;
+}
 
 
 
