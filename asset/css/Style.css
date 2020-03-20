@@ -20,6 +20,15 @@ header{
     
 }
 
+
+@media (any-hover: hover) {
+
+    nav > ul > li > a:hover {
+
+      color: black;
+    }
+  }
+  
 nav > ul > li{
 
     display: inline-block;
@@ -223,6 +232,7 @@ article{
 
 #button{
 
+    border: 2px solid black;
     border-radius: 10%;
     width: 100px;
     height: 30px;
